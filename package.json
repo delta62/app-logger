@@ -1,0 +1,21 @@
+{
+  "name": "@noedel/app-logger",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "author": "Sam Noedel <sam.noedel@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bunyan": "^1.8.12"
+  },
+  "devDependencies": {
+    "@types/bunyan": "^1.8.5",
+    "@types/express": "^4.16.0"
+  }
+}
